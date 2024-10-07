@@ -50,7 +50,7 @@ form {
     padding: 1vh 2vw;
     border-radius: 15px;
     border: 1px solid #ccc;
-    font-size: 1.1rem;
+    font-size: 17px;
     outline: none;
     flex: 1;
 }
@@ -70,9 +70,10 @@ form {
     color: #fff;
     border: none;
     border-radius: 15px;
-    font-size: 1.2rem;
+    font-size: 17px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-weight: bold;
 }
 
 .submit-btn:hover {
@@ -86,12 +87,12 @@ form {
 
     .rounded-input {
         padding: 0.5vh 1vw;
-        font-size: 1rem;
+        font-size: 14px;
     }
 
     .submit-btn {
         padding: 0.7vh 0;
-        font-size: 0.8rem;
+        font-size: 12px;
     }
 }
 
@@ -125,5 +126,6 @@ form {
     .submit-btn {
         padding: 0.6vh 0;
         font-size: 13px;
+        font-weight: bold;
     }
 }

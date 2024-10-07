@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/Header.css';
 import '../styles/Header.css';
 
 const Header = () => {
@@ -10,10 +12,10 @@ const Header = () => {
                 </div>
                 <nav className="nav" id="navbar">
                     <ul className="nav-list">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/sobre">Sobre</Link></li>
+                        <li><Link to="/servicos">Serviços</Link></li>
+                        <li><Link to="/portfolio">Portfólio</Link></li>
                     </ul>
                     <div className="lang-container">
                         <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,7 +30,7 @@ const Header = () => {
                     </div>
                 </nav>
                 <div className="menu-hamburguer" id="menu-hamburguer">
-                    <img src="/images/icons8-hamburger-menu-50.png" alt="Menu Hamburguer" />
+                    <img src="/images/icon-hamburguer.png" alt="Menu Hamburguer" />
                 </div>
             </div>
             <div className="overlay" id="overlay"></div>

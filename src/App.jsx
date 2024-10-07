@@ -1,24 +1,23 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Publications from './components/Publications';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import MissionValues from './components/MissionValues';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Sobre from './pages/Sobre';
+import Servicos from './pages/Servicos';
+import Portfolio from './pages/Portfolio';
 import './styles/Main.css';
 
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <Publications />
-      <MissionValues/>
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/sobre" element={<Sobre />} />
+                <Route path="/servicos" element={<Servicos />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+            </Routes>
+        </Router>
+    );
 };
 
 export default App;

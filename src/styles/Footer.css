@@ -7,7 +7,7 @@
     bottom: 0;
     width: 100%;
     margin-top: 7vh;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 .footer p {
@@ -16,13 +16,13 @@
 
 @media (max-width: 1291px) {
     .footer {
-        font-size: 0.8rem;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 768px) {
     .footer {
-        font-size: 10px;
+        font-size: 13px;
         margin: 0px;
         padding: 3.5vh 0;
     }
