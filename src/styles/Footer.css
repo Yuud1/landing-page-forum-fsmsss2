@@ -1,0 +1,29 @@
+.footer {
+    background-color: #D6281E;
+    color: white;
+    text-align: center;
+    padding: 4vh 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 7vh;
+    font-size: 1rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+@media (max-width: 1291px) {
+    .footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3.5vh 0;
+    }
+}
